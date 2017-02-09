@@ -27,11 +27,12 @@ Instrument profile一次重新编译，时间较长。
 
 ## 在项目中接入
 
-将相关文件导入项目中，
-在AppDelegate.m中开始监控：
-[[PMainThreadWatcher sharedInstance] startWatch];  //方案一
-[[DetectedRunLoop sharedInstance] startDetect];  //方案二
-[[DetectedRunLoop_Other sharedInstance] startDetect];  // 方案二的另种实现方式
+将相关文件导入项目中
+
+在AppDelegate.m中开始监控:  
+[[PMainThreadWatcher sharedInstance] startWatch];  //方案一  
+[[DetectedRunLoop sharedInstance] startDetect];  //方案二  
+[[DetectedRunLoop_Other sharedInstance] startDetect];  // 方案二的另种实现方式  
 
 下面是以接入口袋助理测试的效果图
 
