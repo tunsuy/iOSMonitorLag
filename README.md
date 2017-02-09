@@ -35,6 +35,9 @@ Instrument profile一次重新编译，时间较长。
 
 下面是以接入口袋助理测试的效果图
 
+![image](https://github.com/tunsuy/iOSMonitorLag/blob/master/picture/卡顿图1.jpg)
+![image](https://github.com/tunsuy/iOSMonitorLag/blob/master/picture/卡顿图2.jpg)
+
 但是像在口袋助理这样大型负责的项目中，这些方法都存在一些弊端，监测出来的也不一定是真的由于代码问题引起的，
 这只是可以作为一种自动提醒机制，让开发者自行去检查下提示的代码是否真的存在性能缺陷
 
